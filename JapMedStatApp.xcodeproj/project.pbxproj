@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5829959225D93D37000C7ACE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5829959125D93D37000C7ACE /* README.md */; };
+		58DF40F425D8E95400A6BC98 /* SQLite.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DF40F325D8E95300A6BC98 /* SQLite.xcframework */; };
+		58DF40F825D8F9C100A6BC98 /* medicine.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 58DF40F625D8F99000A6BC98 /* medicine.sqlite */; };
+		58EF07F025D7E51A00BA1BE6 /* JapMedStatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EF07EF25D7E51A00BA1BE6 /* JapMedStatAppApp.swift */; };
+		58EF07F225D7E51A00BA1BE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EF07F125D7E51A00BA1BE6 /* ContentView.swift */; };
+		58EF07F425D7E51B00BA1BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58EF07F325D7E51B00BA1BE6 /* Assets.xcassets */; };
+		58EF07F725D7E51B00BA1BE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58EF07F625D7E51B00BA1BE6 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5829959125D93D37000C7ACE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		58DF40F325D8E95300A6BC98 /* SQLite.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SQLite.xcframework; path = Carthage/Build/SQLite.xcframework; sourceTree = SOURCE_ROOT; };
+		58DF40F625D8F99000A6BC98 /* medicine.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = medicine.sqlite; sourceTree = SOURCE_ROOT; };
+		58EF07EC25D7E51A00BA1BE6 /* JapMedStatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapMedStatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58EF07EF25D7E51A00BA1BE6 /* JapMedStatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapMedStatAppApp.swift; sourceTree = "<group>"; };
+		58EF07F125D7E51A00BA1BE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58EF07F325D7E51B00BA1BE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58EF07F625D7E51B00BA1BE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58EF07F825D7E51B00BA1BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58EF07F925D7E51B00BA1BE6 /* JapMedStatApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JapMedStatApp.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58EF07E925D7E51A00BA1BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DF40F425D8E95400A6BC98 /* SQLite.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58EF07E325D7E51A00BA1BE6 = {
+			isa = PBXGroup;
+			children = (
+				58EF07EE25D7E51A00BA1BE6 /* JapMedStatApp */,
+				58EF07ED25D7E51A00BA1BE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58EF07ED25D7E51A00BA1BE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58EF07EC25D7E51A00BA1BE6 /* JapMedStatApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58EF07EE25D7E51A00BA1BE6 /* JapMedStatApp */ = {
+			isa = PBXGroup;
+			children = (
+				5829959125D93D37000C7ACE /* README.md */,
+				58EF07EF25D7E51A00BA1BE6 /* JapMedStatAppApp.swift */,
+				58EF07F125D7E51A00BA1BE6 /* ContentView.swift */,
+				58EF07F325D7E51B00BA1BE6 /* Assets.xcassets */,
+				58EF07F825D7E51B00BA1BE6 /* Info.plist */,
+				58EF07F925D7E51B00BA1BE6 /* JapMedStatApp.entitlements */,
+				58DF40F325D8E95300A6BC98 /* SQLite.xcframework */,
+				58DF40F625D8F99000A6BC98 /* medicine.sqlite */,
+				58EF07F525D7E51B00BA1BE6 /* Preview Content */,
+			);
+			path = JapMedStatApp;
+			sourceTree = "<group>";
+		};
+		58EF07F525D7E51B00BA1BE6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				58EF07F625D7E51B00BA1BE6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58EF07EB25D7E51A00BA1BE6 /* JapMedStatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58EF07FC25D7E51B00BA1BE6 /* Build configuration list for PBXNativeTarget "JapMedStatApp" */;
+			buildPhases = (
+				58EF07E825D7E51A00BA1BE6 /* Sources */,
+				58EF07E925D7E51A00BA1BE6 /* Frameworks */,
+				58EF07EA25D7E51A00BA1BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JapMedStatApp;
+			productName = JapMedStatApp;
+			productReference = 58EF07EC25D7E51A00BA1BE6 /* JapMedStatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58EF07E425D7E51A00BA1BE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					58EF07EB25D7E51A00BA1BE6 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 58EF07E725D7E51A00BA1BE6 /* Build configuration list for PBXProject "JapMedStatApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58EF07E325D7E51A00BA1BE6;
+			productRefGroup = 58EF07ED25D7E51A00BA1BE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58EF07EB25D7E51A00BA1BE6 /* JapMedStatApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58EF07EA25D7E51A00BA1BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58EF07F725D7E51B00BA1BE6 /* Preview Assets.xcassets in Resources */,
+				58EF07F425D7E51B00BA1BE6 /* Assets.xcassets in Resources */,
+				5829959225D93D37000C7ACE /* README.md in Resources */,
+				58DF40F825D8F9C100A6BC98 /* medicine.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58EF07E825D7E51A00BA1BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58EF07F225D7E51A00BA1BE6 /* ContentView.swift in Sources */,
+				58EF07F025D7E51A00BA1BE6 /* JapMedStatAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58EF07FA25D7E51B00BA1BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58EF07FB25D7E51B00BA1BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		58EF07FD25D7E51B00BA1BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JapMedStatApp/JapMedStatApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"JapMedStatApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = JapMedStatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hatenablog.gikoha.JapMedStatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		58EF07FE25D7E51B00BA1BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JapMedStatApp/JapMedStatApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"JapMedStatApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = JapMedStatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hatenablog.gikoha.JapMedStatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58EF07E725D7E51A00BA1BE6 /* Build configuration list for PBXProject "JapMedStatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58EF07FA25D7E51B00BA1BE6 /* Debug */,
+				58EF07FB25D7E51B00BA1BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58EF07FC25D7E51B00BA1BE6 /* Build configuration list for PBXNativeTarget "JapMedStatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58EF07FD25D7E51B00BA1BE6 /* Debug */,
+				58EF07FE25D7E51B00BA1BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58EF07E425D7E51A00BA1BE6 /* Project object */;
+}
