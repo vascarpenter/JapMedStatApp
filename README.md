@@ -38,8 +38,9 @@ A)  <-- 空行とA)は無視してよい
 *** xcodebuild output can be found in /var/folders/hp/t2gwwzpx27zdx_rnz40jnjcr0000gn/T/carthage-xcodebuild.7ufJh4.log
 *** Building scheme "SQLite Mac" in SQLite.xcodeproj
 ```
-    - `Carthage/Build`に `SQLite.xcframework` ができるため、これを Xcodeののプロジェクトフォルダにドラッグ＆ドロップ
-	- アプリにしたため Framework や sqliteファイルのbundleが楽だった
+
+   - `Carthage/Build`に `SQLite.xcframework` ができるため、これを Xcodeののプロジェクトフォルダにドラッグ＆ドロップ
+   - アプリにしたため Framework や sqliteファイルのbundleが楽だった
 
 - 実行
   - Open SJIS file...からSJISファイルを指定すると、その下のTextEditPaneに変換されたテキストが表示される
