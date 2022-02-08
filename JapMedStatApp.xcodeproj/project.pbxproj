@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5829959225D93D37000C7ACE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5829959125D93D37000C7ACE /* README.md */; };
-		58DF40F425D8E95400A6BC98 /* SQLite.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DF40F325D8E95300A6BC98 /* SQLite.xcframework */; };
+		5845856B27B24998005ADEB2 /* SQLite.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5845856A27B24998005ADEB2 /* SQLite.xcframework */; };
 		58DF40F825D8F9C100A6BC98 /* medicine.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 58DF40F625D8F99000A6BC98 /* medicine.sqlite */; };
 		58EF07F025D7E51A00BA1BE6 /* JapMedStatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EF07EF25D7E51A00BA1BE6 /* JapMedStatAppApp.swift */; };
 		58EF07F225D7E51A00BA1BE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EF07F125D7E51A00BA1BE6 /* ContentView.swift */; };
@@ -16,9 +15,22 @@
 		58EF07F725D7E51B00BA1BE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58EF07F625D7E51B00BA1BE6 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5806423B26986DB3006274A7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		5829959125D93D37000C7ACE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		58DF40F325D8E95300A6BC98 /* SQLite.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SQLite.xcframework; path = Carthage/Build/SQLite.xcframework; sourceTree = SOURCE_ROOT; };
+		5845856A27B24998005ADEB2 /* SQLite.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SQLite.xcframework; path = Carthage/Build/SQLite.xcframework; sourceTree = SOURCE_ROOT; };
 		58DF40F625D8F99000A6BC98 /* medicine.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = medicine.sqlite; sourceTree = SOURCE_ROOT; };
 		58EF07EC25D7E51A00BA1BE6 /* JapMedStatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapMedStatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58EF07EF25D7E51A00BA1BE6 /* JapMedStatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapMedStatAppApp.swift; sourceTree = "<group>"; };
@@ -34,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58DF40F425D8E95400A6BC98 /* SQLite.xcframework in Frameworks */,
+				5845856B27B24998005ADEB2 /* SQLite.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,13 +72,13 @@
 		58EF07EE25D7E51A00BA1BE6 /* JapMedStatApp */ = {
 			isa = PBXGroup;
 			children = (
+				5845856A27B24998005ADEB2 /* SQLite.xcframework */,
 				5829959125D93D37000C7ACE /* README.md */,
 				58EF07EF25D7E51A00BA1BE6 /* JapMedStatAppApp.swift */,
 				58EF07F125D7E51A00BA1BE6 /* ContentView.swift */,
 				58EF07F325D7E51B00BA1BE6 /* Assets.xcassets */,
 				58EF07F825D7E51B00BA1BE6 /* Info.plist */,
 				58EF07F925D7E51B00BA1BE6 /* JapMedStatApp.entitlements */,
-				58DF40F325D8E95300A6BC98 /* SQLite.xcframework */,
 				58DF40F625D8F99000A6BC98 /* medicine.sqlite */,
 				58EF07F525D7E51B00BA1BE6 /* Preview Content */,
 			);
@@ -91,6 +103,7 @@
 				58EF07E825D7E51A00BA1BE6 /* Sources */,
 				58EF07E925D7E51A00BA1BE6 /* Frameworks */,
 				58EF07EA25D7E51A00BA1BE6 /* Resources */,
+				5806423B26986DB3006274A7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -108,7 +121,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					58EF07EB25D7E51A00BA1BE6 = {
 						CreatedOnToolsVersion = 12.4;
@@ -140,7 +153,6 @@
 			files = (
 				58EF07F725D7E51B00BA1BE6 /* Preview Assets.xcassets in Resources */,
 				58EF07F425D7E51B00BA1BE6 /* Assets.xcassets in Resources */,
-				5829959225D93D37000C7ACE /* README.md in Resources */,
 				58DF40F825D8F9C100A6BC98 /* medicine.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +293,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = JapMedStatApp/JapMedStatApp.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"JapMedStatApp/Preview Content\"";
@@ -291,6 +304,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hatenablog.gikoha.JapMedStatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -303,6 +317,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = JapMedStatApp/JapMedStatApp.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"JapMedStatApp/Preview Content\"";
@@ -313,6 +328,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hatenablog.gikoha.JapMedStatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

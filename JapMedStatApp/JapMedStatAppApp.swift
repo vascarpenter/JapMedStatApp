@@ -3,7 +3,7 @@
 //  JapMedStatApp
 //
 //  Created by Namikare Gikoha on 2021/02/13.
-//
+// 
 
 import SQLite
 import SwiftUI
@@ -209,7 +209,12 @@ func japmedstat(text: String) -> String
                 if liney1.pregMatche(pattern: "([ァ-ンＡ-Ｚａ-ｚー塩化酸・]+)(.*)", matches: &ans)
                 {
                     var matchstr: String = ""
-
+                    if ans[1] == "ツムラ"
+                    {
+                        ans = []
+                        // ツムラの漢方薬だった；ツムラ＋漢字の検索必要
+                        liney1.pregMatche(pattern: "(ツムラ[ァ-ン抑肝散葛根湯五苓麦門冬当帰芍薬料防風通聖加味逍遙顆粒]+)(.*)", matches: &ans)
+                    }
                     matchstr = findName(name: ans[1])
                     if matchstr != ""
                     {
