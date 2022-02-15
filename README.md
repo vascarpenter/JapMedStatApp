@@ -29,18 +29,8 @@ A)  <-- 空行とA)は無視してよい
 
 - ビルド方法
   - https://github.com/stephencelis/SQLite.swift を使用
-  - XcodeにCarthage由来のFrameworkを追加する手段    - Xcodeを起動
-    - terminalにてプロジェクトフォルダにcdした後
-    - `carthage update --platform macOS  --use-xcframeworks` を入力
-```
-*** Fetching SQLite.swift
-*** Checking out SQLite.swift at "0.12.2"
-*** xcodebuild output can be found in /var/folders/hp/t2gwwzpx27zdx_rnz40jnjcr0000gn/T/carthage-xcodebuild.7ufJh4.log
-*** Building scheme "SQLite Mac" in SQLite.xcodeproj
-```
-
-   - `Carthage/Build`に `SQLite.xcframework` ができるため、これを Xcodeののプロジェクトフォルダにドラッグ＆ドロップ
-   - アプリにしたため Framework や sqliteファイルのbundleが楽だった
+  - XcodeのFile>Add Packages...からパッケージを追加　上記URLを入れるだけ
+  - アプリにしたため Framework や sqliteファイルのbundleが楽だった
 
 - 実行
   - Open SJIS file...からSJISファイルを指定すると、その下のTextEditPaneに変換されたテキストが表示される

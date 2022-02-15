@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5845856B27B24998005ADEB2 /* SQLite.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5845856A27B24998005ADEB2 /* SQLite.xcframework */; };
+		580C26B227BBC21A007A6C72 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 580C26B127BBC21A007A6C72 /* SQLite */; };
 		58DF40F825D8F9C100A6BC98 /* medicine.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 58DF40F625D8F99000A6BC98 /* medicine.sqlite */; };
 		58EF07F025D7E51A00BA1BE6 /* JapMedStatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EF07EF25D7E51A00BA1BE6 /* JapMedStatAppApp.swift */; };
 		58EF07F225D7E51A00BA1BE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EF07F125D7E51A00BA1BE6 /* ContentView.swift */; };
@@ -30,7 +30,6 @@
 
 /* Begin PBXFileReference section */
 		5829959125D93D37000C7ACE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		5845856A27B24998005ADEB2 /* SQLite.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SQLite.xcframework; path = Carthage/Build/SQLite.xcframework; sourceTree = SOURCE_ROOT; };
 		58DF40F625D8F99000A6BC98 /* medicine.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = medicine.sqlite; sourceTree = SOURCE_ROOT; };
 		58EF07EC25D7E51A00BA1BE6 /* JapMedStatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapMedStatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58EF07EF25D7E51A00BA1BE6 /* JapMedStatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapMedStatAppApp.swift; sourceTree = "<group>"; };
@@ -46,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5845856B27B24998005ADEB2 /* SQLite.xcframework in Frameworks */,
+				580C26B227BBC21A007A6C72 /* SQLite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +71,6 @@
 		58EF07EE25D7E51A00BA1BE6 /* JapMedStatApp */ = {
 			isa = PBXGroup;
 			children = (
-				5845856A27B24998005ADEB2 /* SQLite.xcframework */,
 				5829959125D93D37000C7ACE /* README.md */,
 				58EF07EF25D7E51A00BA1BE6 /* JapMedStatAppApp.swift */,
 				58EF07F125D7E51A00BA1BE6 /* ContentView.swift */,
@@ -110,6 +108,9 @@
 			dependencies = (
 			);
 			name = JapMedStatApp;
+			packageProductDependencies = (
+				580C26B127BBC21A007A6C72 /* SQLite */,
+			);
 			productName = JapMedStatApp;
 			productReference = 58EF07EC25D7E51A00BA1BE6 /* JapMedStatApp.app */;
 			productType = "com.apple.product-type.application";
@@ -137,6 +138,9 @@
 				Base,
 			);
 			mainGroup = 58EF07E325D7E51A00BA1BE6;
+			packageReferences = (
+				580C26B027BBC219007A6C72 /* XCRemoteSwiftPackageReference "SQLite" */,
+			);
 			productRefGroup = 58EF07ED25D7E51A00BA1BE6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -357,6 +361,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		580C26B027BBC219007A6C72 /* XCRemoteSwiftPackageReference "SQLite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		580C26B127BBC21A007A6C72 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 580C26B027BBC219007A6C72 /* XCRemoteSwiftPackageReference "SQLite" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 58EF07E425D7E51A00BA1BE6 /* Project object */;
 }
