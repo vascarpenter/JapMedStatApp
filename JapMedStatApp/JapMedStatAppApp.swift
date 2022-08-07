@@ -213,9 +213,12 @@ func japmedstat(text: String) -> String
                     {
                         ans = []
                         // ツムラの漢方薬だった；ツムラ＋漢字の検索必要
-                        liney1.pregMatche(pattern: "(ツムラ[ァ-ン抑肝散葛根湯五苓麦門冬当帰芍薬料防風通聖加味逍遙顆粒]+)(.*)", matches: &ans)
+                        _ = liney1.pregMatche(pattern: "(ツムラ[ァ-ン六君子甘草抑肝散葛根湯五苓麦門冬当帰芍薬料防風通聖加味逍遙顆粒]+)(.*)", matches: &ans)
                     }
-                    matchstr = findName(name: ans[1])
+                    if ans.count > 0
+                    {
+                        matchstr = findName(name: ans[1])
+                    }
                     if matchstr != ""
                     {
                         dbstr = dbstr + liney + "  " + matchstr + "\n"
